@@ -1,0 +1,51 @@
+body{
+
+}
+
+.container{
+  width: 80%;
+  margin:0 auto;
+}
+
+#header{
+  background: green;
+  position:sticky;
+  top:0px;
+}
+
+#header::after{
+  content:'';
+  display:table;
+  clear:both;
+}
+
+#header-img{
+  height:auto;
+  width: 120px;
+  float:left;
+}
+
+#nav-bar{
+  float:right;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+li{
+  display:inline-block;
+  padding-top:3px;
+  margin-left: 70px;
+}
+
+.nav-link{
+  color:black;
+  text-decoration: none;
+}
+
+#form{
+  clear:both;
+}
