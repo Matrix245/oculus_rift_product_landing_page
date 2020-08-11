@@ -54,8 +54,9 @@ li{
 
 #Home{
   display:flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  justify-content:center;
+  flex-wrap:wrap;
   height:90vh;
 
 }
@@ -73,7 +74,7 @@ li{
 #home-image{
   margin-right: 1%;
   margin-left: 1%;
-  height:120vh;
+  height:150vh;
   width:auto;
 }
 
@@ -84,7 +85,27 @@ li{
 
 #featur-container{
   display:grid;
-  grid-template-rows: 50% 50%;
-  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 0.6fr 0.6fr;
+  grid-template-columns: 0.2fr 0.2fr 0.2fr;
+  grid-template-areas:
+              "header header header"
+              "con1 con2 con3";
+  justify-content: center;
+}
 
+#U2{
+  grid-area:header;
+  text-align: center;
+}
+
+#Box1{
+  grid-area:con1;
+}
+
+#Box2{
+  grid-area:con2;
+}
+
+#Box3{
+  grid-area:con3;
 }
