@@ -1,14 +1,9 @@
-body{
-
-}
-
 .container{
   width: 80%;
   margin:0 auto;
 }
 
 #header{
-  background: green;
   position:sticky;
   top:0px;
 }
@@ -37,7 +32,7 @@ ul{
 
 li{
   display:inline-block;
-  padding-top:3px;
+  padding:3px 0px 3px 0px;
   margin-left: 70px;
 }
 
@@ -46,6 +41,29 @@ li{
   text-decoration: none;
 }
 
+.nav-link:hover{
+  padding:10px 10px 10px 10px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  color:rgba(0,0,0,0.7);
+
+}
+
 #form{
   clear:both;
+}
+
+#Home{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  height:70vh;
+
+}
+
+#U1{
+
+  margin-left: 11%;
+}
+#home-image{
+  margin-right: 10%;
 }
