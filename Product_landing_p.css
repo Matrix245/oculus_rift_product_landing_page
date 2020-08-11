@@ -81,6 +81,7 @@ li{
 #Featur{
   background-color:rgb(235, 235, 235);
   margin:0px -10px 0px -10px;
+  padding-bottom: 5%;
 }
 
 #featur-container{
@@ -100,12 +101,37 @@ li{
 
 #Box1{
   grid-area:con1;
+  margin-right:8%;
+  background-color: rgba(255,255,255,0.8);
 }
 
 #Box2{
   grid-area:con2;
+  margin-right:8%;
+  background-color: rgba(255,255,255,0.8);
 }
 
 #Box3{
   grid-area:con3;
+  background-color: rgba(255,255,255,0.8);
+}
+
+#Preview{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  margin:0% -8px 0% 5%;
+}
+
+#U3{
+  align-self: center;
+  margin-left:2%; 
+}
+#video{
+  height:80vh;
+  width: 60vw;
+  margin-bottom: -4px;
+}
+
+#video_preview{
+
 }
