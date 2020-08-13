@@ -6,6 +6,10 @@
 #header{
   position:sticky;
   top:0px;
+  margin:0px -10px 0px -10px;
+  padding-bottom:1%;
+  background-color: white;
+
 }
 
 #header::after{
@@ -102,18 +106,18 @@ li{
 #Box1{
   grid-area:con1;
   margin-right:8%;
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgb(245,245,245);
 }
 
 #Box2{
   grid-area:con2;
   margin-right:8%;
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgb(245,245,245);
 }
 
 #Box3{
   grid-area:con3;
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgb(245,245,245);
 }
 
 #Preview{
@@ -124,7 +128,7 @@ li{
 
 #U3{
   align-self: center;
-  margin-left:2%; 
+  margin-left:2%;
 }
 #video{
   height:80vh;
@@ -134,4 +138,20 @@ li{
 
 #video_preview{
 
+}
+
+#Form{
+  background-color:rgb(128, 128, 128);
+  margin:0px -10px 0px -10px;
+  padding-bottom: 5%;
+  padding-top:4%;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  font-size:12px;
+}
+
+#U4{
+  padding-right: 1%;
 }
